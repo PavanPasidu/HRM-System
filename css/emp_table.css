@@ -1,0 +1,91 @@
+#empt {
+  border-collapse: collapse;
+  margin: 25px;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#empt thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+#empt th{
+  padding: 12px 15px;
+  font-size: 1;
+}
+#empt td {
+  font-size: 0.9em;
+  padding: 12px 15px;
+}
+td:nth-child(1) {
+  width: 120px;
+}
+td:nth-child(2) {
+  width: 140px;
+}
+td:nth-child(3) {
+  width: 140px;
+}
+td:nth-child(4) {
+  width: 180px;
+}
+td:nth-child(5) {
+  width: 200px;
+}
+
+#empt tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+#empt tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#empt tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+#empt tbody tr:hover {
+  color: #009879;
+  font-weight: bold;
+}
+
+#emphead{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: #009879;
+}
+.rv_btn:link, .rv_btn:visited {
+  background-color: rgb(222, 56, 10);
+  border: 2px solid rgb(222, 56, 10);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.rv_btn:hover, .rv_btna:active {
+  background-color: rgb(199, 44, 44);
+  border: 2px solid rgb(199, 44, 44);
+  color: white;
+  font-weight: bold;
+}
+.ed_btn:link, .ed_btn:visited {
+  background-color: rgb(8, 214, 77);
+  border: 2px solid rgb(8, 214, 77);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.ed_btn:hover, .ed_btna:active {
+  background-color: rgb(8, 191, 69);
+  border: 2px solid rgb(8, 191, 69);
+  color: white;
+  font-weight: bold;
+}

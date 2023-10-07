@@ -1,0 +1,66 @@
+.bigContainer{
+  display: flex;
+} 
+
+.imageContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.tableContainer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.editable{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.changePasswordForm{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  /* height: 00px; */
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.changebtn {
+  background-color: #18abc5;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+.changebtn:hover{
+  background-color: #044c8f;
+  color: rgb(255, 255, 255);
+}
+
+.content{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
