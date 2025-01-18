@@ -1,0 +1,96 @@
+body{
+    background-color: #f1f1f1;
+}
+
+#side_nav{
+    background:#808080;
+    min-width: 100%;
+    max-width: 100%;
+    
+}
+
+hr.h-color{
+    background: #eee;
+}
+.sidebar li.active{
+    backgrounD: #eee;
+    border-radius:8px;
+}
+.sidebar li.active a, .sidebar li.action a:hover{
+    color:#000;
+}
+.sidebar li a{
+    color:#fff;
+}
+
+
+
+
+.bigbox{
+    display: flex;
+    width: 100%;
+
+}
+
+.emcount{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.navbar{
+    background-color: whitesmoke;
+
+}
+.upperbar{
+    border-radius: 5px;
+}
+.leftside{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+}
+.rightside{
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+    padding-left: 15%;
+}
+
+table.center{
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.bigbox{
+    display: flex;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    width: 100%;
+}
+.flexboxcontainer_leave{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.smbox{
+    width: 375px;
+    height: 220px;
+    background: linear-gradient(green,lightgreen);
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20%;
+    margin: 30px;
+    color: wheat;
+    font-weight: bold;
+}
+
+.smbox:hover{
+    background: linear-gradient(lightgreen, green);
+    color: white;
+}

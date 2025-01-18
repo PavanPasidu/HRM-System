@@ -1,0 +1,30 @@
+body{
+    background-color: #f1f1f1;
+}
+
+#side_nav{
+    background:#808080;
+    min-width: 250px;
+    max-width: 250px;
+    
+}
+.content{
+    min-height: 100vh;
+    width : 100%;
+}
+hr.h-color{
+    background: #eee;
+}
+.sidebar li.active{
+    backgrounD: #eee;
+    border-radius:8px;
+}
+.sidebar li.active a, .sidebar li.action a:hover{
+    color:#000;
+}
+.sidebar li a{
+    color:#fff;
+}
+.bigbox{
+    display: flex;
+}
